@@ -1,0 +1,14 @@
+.create-product-form{
+    width: 300px;
+    height: auto;
+}
+
+
+.create-product-form label{
+    color: rgb(80, 77, 77) !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px !important;
+}
+
+
+

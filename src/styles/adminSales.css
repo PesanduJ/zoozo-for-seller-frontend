@@ -1,0 +1,16 @@
+.sales-admin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .left {
+    width: 80%; /* Adjust the width as needed */
+    margin-top: 2%;
+  }
+  
+  .right {
+    width: 20%; /* Adjust the width as needed */
+    margin-top: 2%;
+    margin-left: 3%;
+  }

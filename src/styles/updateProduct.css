@@ -1,0 +1,18 @@
+.update-product-form {
+  width: 300px;
+  height: auto;
+}
+
+.update-product-form label {
+  color: rgb(80, 77, 77) !important;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px !important;
+}
+
+.update-form {
+  margin: 0 auto;
+  padding: 50px;
+  max-width: fit-content;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

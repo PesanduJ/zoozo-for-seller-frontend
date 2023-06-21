@@ -1,0 +1,70 @@
+.update-user-container {
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+    height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  .update-user-form {
+    max-width: 400px;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .update-user-heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .update-user-form .field label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .update-user-form input,
+  .update-user-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .update-user-form textarea {
+    resize: vertical;
+  }
+  
+  .update-user-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .update-user-form button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+  
+  .update-user-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .update-user-form button .dimmer {
+    border-radius: 4px;
+  }
+  
+  .update-user-form button .dimmer .loader {
+    color: #fff;
+  }
+  

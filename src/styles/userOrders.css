@@ -1,0 +1,47 @@
+
+.seller-orders-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Semantic UI table styles */
+  .ui.table {
+    width: 80%;
+    margin-top: 20px;
+  }
+  
+  .ui.celled.table tbody > tr > td {
+    white-space: nowrap;
+  }
+  
+  .ui.table thead th {
+    background-color: #f5f5f5;
+  }
+  
+  .ui.table thead th,
+  .ui.table tbody td {
+    text-align: center;
+  }
+  
+  .ui.loader:before {
+    background-color: #2185d0 !important;
+  }
+  
