@@ -121,7 +121,7 @@ function ProductsTable() {
                         </div>
                       </Table.Cell>
                       <Table.Cell>{data.productName}</Table.Cell>
-                      <Table.Cell>{data.description}</Table.Cell>
+                      <Table.Cell><pre>{data.description}</pre></Table.Cell>
                       <Table.Cell>{data.sellingPrice}</Table.Cell>
                       <Table.Cell>{data.inStock}</Table.Cell>
                       <Table.Cell>{data.productValue}</Table.Cell>
